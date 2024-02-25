@@ -1,0 +1,48 @@
+.column-with-cards {
+    display: flex;
+    align-items: flex-start;
+    background-color: cadetblue;
+    margin: 3%;
+    border: 1px solid cadetblue;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-column {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .cards-container {
+    height: 400px; /* Set the height of the container */
+    overflow-y: auto; /* Enable vertical scrollbar if needed */
+  }
+  
+  .scrollable-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+  

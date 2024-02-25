@@ -1,0 +1,43 @@
+.text-animation-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+.animation_space{
+  font-size: 60px;
+
+}
+
+
+.text-animation {
+  width: 100%; 
+  position: relative;
+ 
+  
+}
+
+.text {
+  font-size: 60px;
+  position: absolute;
+  width: fit-content;
+  opacity: 0;
+  color: blue;
+  animation: fadeInDown 1s ease-in-out forwards;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply z-index to ensure the active text is displayed on top */
+.text.active {
+  z-index: 1;
+}

@@ -1,0 +1,37 @@
+.home-container{
+    padding: 2%;
+    margin-top: 41px;
+    .border-p{
+        border: 1px solid lightslategrey;
+        border-radius: 32px;
+        width: fit-content;
+    }
+    .blue-text{
+        color: blue;
+    }
+    .animation_space{
+        margin-top: 45px;
+    }
+    .p-content{
+        width: 73%;
+        font-size: 17px;
+        color: darkslategrey;
+    }
+    .btn-color{
+        background-color: black;
+    }
+    .form-div{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 13px;
+    }
+    .p-div{
+        width: 43%;
+    }
+    .color-orange{
+        color: orange;
+    }
+    .color-green{
+        color: green;
+    }
+}

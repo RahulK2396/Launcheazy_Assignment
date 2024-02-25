@@ -1,0 +1,30 @@
+.growth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    h3{
+        width: 300px;
+    }
+    .growth-val{
+        display: flex;
+        flex-wrap: wrap;
+    flex-direction: row;
+    gap: 8px;
+    h6{
+        font-size: 30px;
+        color: grey;
+    }
+    div{
+        width: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid dimgrey;
+    text-align: center;
+    }
+    }
+}

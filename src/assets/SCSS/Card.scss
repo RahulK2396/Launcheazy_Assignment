@@ -1,0 +1,14 @@
+.main-card{
+    width: 22rem;
+    
+}
+.cardlist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.attract{
+    background-color: #e2cacd;
+    padding: 4%;
+}
